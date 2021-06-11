@@ -1,0 +1,50 @@
+---
+title: "Untitled"
+author: "Nathan Bracken"
+date: "6/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+# Getting Started on GitHub!
+
+- Github is an excellent filesharing tool that helps with distributed learning
+- Much like google docs and google drive
+- Thank You to @grantmcdermott on Github for introducing me to this technology
+- Also thanks for your lesson from which this lesson has been adapted
+
+---
+
+# Git/Github??
+
+- Github is an extension of Git, a software package that tracks file changes
+- Github is hosted on the web!
+- It is best used for nonlinear workflows and decentralized filesharing
+- This is great! Unlocks so many resources right at your fingertips
+
+--- 
+
+# Git is an extension of your coding platform! 
+
+- I am currently using R studio, which can also host HTML, PYTHON, and C++
+- (I am a huge fan of R Studio) - You should be too, its a great starting point
+- I am going to be explaining how to use Git on Mac with R studio
+- Jacob may contribute to this as well for our windows users - UNIX
+
+---
+
+# Ok Lets collect ourselves
+
+- We need Installed/Completed: 
+  - R -> https://www.r-project.org/
+  - R Studio -> https://www.rstudio.com/products/rstudio/download/preview/
+  - Git -> https://git-scm.com/downloads
+  - A Github account created (Use Your UO ID) -> https://github.com/
+
+---
+
