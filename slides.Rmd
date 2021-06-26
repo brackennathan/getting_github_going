@@ -11,6 +11,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ---
 
+# Before we get to the fun stuff, let's get into our computers more
+- Command Line programming?
+class: inverse, center, middle
+background-image:url("https://avantutor.com/blog/wp-content/uploads/2019/07/Screen-Shot-2019-07-20-at-12.24.15-PM.png")
+background-size:contain
+image-credits:https://avantutor.com/blog/10-command-lines/
+
+---
+
+# Some basic commands to get a feel for command line
+##### We will navigate to a folder from our home directory and make a new file
+
+| Function | Windows | Apple | 
+|:-------------:|:------:|:-------:|
+| Display available Directories | dir | ls | 
+| Display name of current directory or change current folder | cd | pwd/cd |
+| Create a new folder | md / mkdir | mkdir |
+| Create a new file (in current directory) | echo | touch |
+| Remove a File | del | rm |
+| Remove a Folder | rmdir | rmdir |
+
+---
+
 # Getting Started on GitHub!
 
 - Github is an excellent filesharing tool that helps with distributed learning
