@@ -36,10 +36,9 @@ image-credits:https://avantutor.com/blog/10-command-lines/
 
 # Getting Started on GitHub!
 
-- Github is an excellent filesharing tool that helps with distributed learning
+- Github is an excellent file-sharing tool that helps with distributed learning
 - Much like google docs and google drive
 - Thank You to @grantmcdermott on Github for introducing me to this technology
-- Also thanks for your lesson from which this lesson has been adapted
 
 ---
 
@@ -47,12 +46,19 @@ image-credits:https://avantutor.com/blog/10-command-lines/
 
 - Github is an extension of Git, a software package that tracks file changes
 - Github is hosted on the web!
-- It is best used for nonlinear workflows and decentralized filesharing
+- It works in the background of your computer with command line to track changes
 - This is great! Unlocks so many resources right at your fingertips
 
 --- 
 
-# Git is an extension of your coding platform! 
+# Git as a software
+
+- class: inverse, center, middle
+background-image:url("https://www.domesticatedbrain.com/images/images/ComputerScience/SoftwareTesting/BlackBoxTesting.PNG")
+background-size:contain
+image-credits: https://www.domesticatedbrain.com/tutorials/computer-science/124-black-box-testing
+
+---
 
 - I am currently using R studio, which can also host HTML, PYTHON, and C++
 - (I am a huge fan of R Studio) - You should be too, its a great starting point
