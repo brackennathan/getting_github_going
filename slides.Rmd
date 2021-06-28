@@ -113,9 +113,18 @@ image-credits: https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutoria
 
 ---
 
-#Make a repository
+#Make a repository and update it
 
+- Click the create new repository tab
 
+- Copy the HTTPS/SSH link (the green "Clone or Download" button).<sup>1</sup>
+  - I recommend you eventually set up an SSH
+  
+- In RStudio go to **File -> New Project -> Version Control -> Git**.
+
+- Paste your copied link into the "Repository URL:" box.
+
+- Choose the folder to store your project in ("Create project as subdirectory of:") and click **Create Project**.
 
 ---
 
@@ -129,3 +138,7 @@ image-credits: https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutoria
 | 4. | push | Update Github file with local "merge" |
 
 ---
+
+#Resources
+
+
