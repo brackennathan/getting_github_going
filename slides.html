@@ -3,9 +3,9 @@
   <head>
     <title>Get a Git Introduction</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Nathan Bracken" />
+    <meta name="author" content="Nathan Bracken and Jacob Resnikoff" />
     <meta name="date" content="2021-06-27" />
-    <script src="libs/header-attrs-2.7/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.9/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 
 # Get a Git Introduction
 ## An introduction to Git
-### Nathan Bracken
+### Nathan Bracken and Jacob Resnikoff
 ### 06/27/2021
 
 ---
@@ -85,7 +85,7 @@ image-credits: https://www.domesticatedbrain.com/tutorials/computer-science/124-
 background-image: url("https://intellipaat.com/mediaFiles/2018/12/git-lifecycle.png")
 background-size:contain
 image-credits: https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial/
-#High Level Steps to make "git" work with gitHub
+#Steps to make "git" work with gitHub
 
 ---
 
@@ -116,6 +116,107 @@ image-credits: https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutoria
   - A Github account created (Use Your UO ID) -&gt; https://github.com/
 
 ---
+
+#Make a repository
+
+
+
+---
+
+# The Basic Git Commands
+
+| Step | Command | Purpose |
+|:------|:------:|:------|
+| 1. | add | to place our file version in the box |
+| 2. | commit | Let Git know we are serious about this version ( a secondary save)
+| 3. | pull | Updates our local file with the one hosted on github |
+| 4. | push | Update Github file with local "merge" |
+
+---
+background-image: url('http://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/sites/2/2012/02/6874.5_5F00_01C91EBC.png')
+background-size: 300px 300px
+background-position: 50% 250px
+
+# Notes for Windows Users
+
+* Windows plays by its own rules
+  + Not based on a Unix derivative like macOS and Linux, which run the popular Bash shell and command     language natively
+--
+
+* When we download Git on our Windows OS, we can use the Git Bash Terminal that comes bundled with it...
+--
+
+  + But because **Bash is based on Unix** and **Windows OS is not**, some of these commands won't work, thereby preventing us from taking full advantage of the functionality that a Unix Shell offers us
+
+---
+background-image: url(https://www.zdnet.com/a/hub/i/r/2020/06/05/30d74ab5-e703-4b01-8dd1-e1895f627516/resize/1200x900/72293020dcb25664c0336abb906c8f71/linux-penguin-in-windows-10-pc.png)
+background-size: fill
+
+# The Windows Subsystem for Linux (WSL)
+
+---
+# Breaking Down the WSL
+
+* According to [Microsoft's WSL Documentation](https://docs.microsoft.com/en-us/windows/wsl/faq), The WSL is a feature of Windows 10 that enables you to run native Linux command-line tools directly on Windows, alongside your traditional Windows desktop and apps.
+
+--
+
+  + It is for anyone who likes using Bash, common Linux tools, and Linux-first frameworks (Ruby, Python, etc.) but also enjoy using Windows productivity tools
+
+--
+  
+  + WSL enables you to run Linux in a Bash shell with your choice of distribution (Ubuntu, Debian, Kali, etc). Using Bash, you can run command-line Linux tools and apps
+
+---
+# Breaking Down the WSL
+
+* At a more mechanical level, we primarily use the WSL to access our local machine's file system from the Linux Bash shell
+--
+background-image: url(https://docs.microsoft.com/en-us/windows/wsl/media/ls.png)
+background-size: 50%
+background-position: 50% 250px
+
+  + We can access the contents of our local drives that are "mounted" under the `/mnt` folder.
+
+  + For instance, we can access our `C:\` folder (or "C-Drive") by accessing the `/mnt/c` file directory
+
+---
+# Disclaimers
+
+* It's not completely necessary...
+
+--
+
+  + You can use the shell commands for Git in the Git Bash shell that is bundled with your download of Git, *but* you're missing out on the chance to better understand how your machine works and become a more effective data scientist
+
+--
+
+* We aren't installing Linux in its entirety on our Windows systems, the **WSL only allows us to manage files using Bash and use the core Linux commands therein**
+  
+  + For example, we can't launch applications that have graphical elements from the WSL side of our system — like RStudio, for example
+
+--
+
+* Installing the WSL can be a little time-consuming
+--
+  
+  + [Microsoft provides thorough documentation](https://docs.microsoft.com/en-us/windows/wsl/install-win10) on how to install it on your Windows system, which is great! But when we dig into it we find that we are...
+
+--
+  
+  + Required to opt-in to the Windows Insider program, and likely update and restart your Windows machine a few times. It took Jacob a few hours to get it all up and running, but it will be different for everyone
+
+---
+# But Still Do It
+
+* From Jacob's experience, downloading the WSL has given him a better understanding of how computer file systems work. He also loved the flexibility that he was exposed to via the Unix framework
+
+--
+background-image: url(https://ih1.redbubble.net/image.738129631.6518/flat,750x,075,f-pad,750x1000,f8f8f8.jpg)
+background-size: 40%
+background-position: 50% 125px
+
+* He just may convert to Linux someday...
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
