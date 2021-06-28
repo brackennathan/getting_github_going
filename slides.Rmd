@@ -36,7 +36,7 @@ image-credits:https://avantutor.com/blog/10-command-lines/
 - Uses UNIX philosophy
   - "Do one thing and do it well"
   
-- Jacob talk about the different options for windows users. Provide links to downloads.
+- Using the Windows Subsystem for Linux to Expand our Bash Abilities Beyond Git
 
 ---
 
@@ -85,7 +85,7 @@ image-credits: https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutoria
 
 ---
 
-#Git works as a compliment to editors
+# Git works as a compliment to editors
 
 - I am currently using R and R studio, which can also host HTML, PYTHON, and C++
 
@@ -113,9 +113,18 @@ image-credits: https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutoria
 
 ---
 
-#Make a repository
+# Make a repository and update it
 
+- Click the create new repository tab
 
+- Copy the HTTPS/SSH link (the green "Clone or Download" button).<sup>1</sup>
+  - I recommend you eventually set up an SSH
+  
+- In RStudio go to **File -> New Project -> Version Control -> Git**.
+
+- Paste your copied link into the "Repository URL:" box.
+
+- Choose the folder to store your project in ("Create project as subdirectory of:") and click **Create Project**.
 
 ---
 
@@ -214,3 +223,16 @@ background-position: 50% 125px
 
 * He just may convert to Linux someday...
 
+---
+
+# Resources
+
+- [RMD Sheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+- [Setting Up SSH](http://happygitwithr.com/ssh-keys.html#ssh-keys)
+- [Wildcards in Bash](https://ryanstutorials.net/linuxtutorial/wildcards.php)
+- [Pull Requests](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+- [OSG for when Git goes wrong](http://ohshitgit.com/)
+- [Starting Completely Over on a project](http://happygitwithr.com/burn.html)
+- [Cheat for Bash](https://github.com/chrisallenlane/cheat)
+- [Silver Searcher](https://github.com/ggreer/the_silver_searcher)
+- [Grants Github](https://github.com/grantmcdermott)
